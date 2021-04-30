@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  
+    <title>login</title>
+    <link rel="stylesheet" type="text/css" href="media.visual+css.css"/>
+<form action="accueil.html"></form>
+</head>
+<body>
+    <header>
+        <div class="entoureImg">
+     <img alt="logo" src="livre.jfif"/>
+     </div>
+     <h1>Bienvenue sur le Portail documentaire</h1>  
+     <br/>
+    </header>
+    <nav>
+        <a href="lamedia.v2.n.html">Acceuil</a>
+        <a href="login.html">mon compte</a>
+        <a href="catalogue.html">catalogue</a>
+        <a href="horaires.html">Horaires</a>
+
+    
+    </nav>
+    <section>
+        <h2>Notre catalogue</h2>
+        <div id="formulaire">
+            <form action="catalogue.html" method="post">
+             <h3>choisir votre type de support:</h3>
+             <fieldset>
+                 <legend align="top">livres</legend><br>
+                 <select name="txLivres">
+                     <option>Adulte</option>
+                     <option>Adolescent</option>
+                     <option>jeunesse</option>
+                 </select>
+             </fieldset>
+             <fieldset>
+                 <legend align="top">revues</legend><br>
+                  <input list="revues" name="liRevues"><datalist id="revues">
+                      <option>journaliére</option>
+                      <option>Hebdomadaire</option>
+                      <option>Mensuelle</option>
+                  </datalist>
+             </fieldset>
+             <fieldset>
+                 <legend align="top">Numériques</legend><br>
+                 <input type="radio" name="rdNum" value="CD" id="rdNumcd">
+                 <label for="rdNum">CD</label>
+                 <input type="radio" name="rad" value="DVD" id="rdNumDVD">
+                 <label for="rad" >DVD</label>
+             </fieldset>
+             <br/>
+             <input type="submit" value="soumettre" class="bouton" />
+            </form>
+
+             
+        </div>
+    </section>
+    <section> <h2>Accés à votre espace client</h2>
+
+    <div id="formulaire">
+    <form action="accueil.html">
+        <label id="lbsaisie">votre nom:</label>   <input type="text" id="txNom" size="26" />
+        <br/>
+        <label id="lbsaisie">Mot de passe:</label><input type="text" id="txNom" size="25" />
+        </br>
+        <input type="submit" value="connexion" />
+    </form>
+    
+</div>
+</section>
+    
+    <footer id="fondPestin">
+        <p>Plestin-Les-genéves</p>
+    
+    </footer>
+    
+</body>
+</html>

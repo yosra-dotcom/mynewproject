@@ -1,0 +1,34 @@
+
+
+#infoPratique {border:solid 10px black; 
+    margin:50px; padding:30px; background-color:lightgrey;}
+
+
+#inscript{border:solid 10px black; padding:30px;
+  background-color:yellow;}
+#pret{ border:solid 10px black; margin:50px;
+  background-color:green;}
+
+.entoureImg{float:right;}
+
+#formulaire{
+  position:relative;
+  margin:auto;
+  width: 300px;
+}
+
+#libSaisie{
+  display: inline-block;
+  width: 140px;
+  line-height : 300px;
+}
+.bouton{width: 360px;}
+#fondPestin{
+  background-image:url(omar.jpg);
+ color:indigo;
+ font-size :20px;
+ font-style:oblique;
+ font-weight:bold;
+ padding: auto;
+}
+section{font-family:Arial;background-image: url(fond.jpg);padding: 20px;}

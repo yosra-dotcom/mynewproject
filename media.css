@@ -1,0 +1,11 @@
+#bien{color: blue;}
+body{background-image: url(horloge.jpg) ;} 
+
+#infoPratique {border:solid 10px black; 
+    margin:50px; padding:30px; background-color:lightgrey;}
+
+
+#inscript{border:solid 10px black; padding:30px;
+  background-color:yellow;}
+#pret{ border:solid 10px black; margin:50px;
+  background-color:green;}
